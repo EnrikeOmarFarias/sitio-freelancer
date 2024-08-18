@@ -1,5 +1,5 @@
 :root {
-  --blanco: #fffffff;
+  --blanco: #ffffff;
   --oscuro: #212121;
   --primario: #ffc107;
   --secundario: #0097a7;
@@ -33,4 +33,22 @@ body {
 
 .nav_bg {
   background-color: var(--secundario);
+}
+
+.navegacion_principal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navegacion_principal a {
+  color: var(--blanco);
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.navegacion_principal a:hover {
+  background-color: var(--primario);
+  color: var(--oscuro);
 }
