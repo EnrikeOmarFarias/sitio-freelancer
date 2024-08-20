@@ -27,6 +27,7 @@
         <a href="#">Contacto</a>
       </nav>
     </div>
+
     <section class="hero">
       <div class="contenido_hero">
         <h2>Diseño y Desarrollo Web Freelancer</h2>
@@ -56,7 +57,7 @@
       </div>
     </section>
 
-    <main class="contenedor">
+    <main class="contenedor sombra">
       <h2>Mis Servicios</h2>
 
       <div class="servicios">
@@ -177,36 +178,43 @@
           </p>
         </section>
       </div>
+
+      <section>
+        <h2>Contacto</h2>
+        <form action="" class="formulario">
+          <fieldset>
+            <legend>Contactame llenando todos los campos</legend>
+            <div class="contenedor_campos">
+              <div class="campo">
+                <label for="">Nombre</label>
+                <input class="type_text" type="text" placeholder="Tu Nombre" />
+              </div>
+              <div class="campo">
+                <label for="">Telefono</label>
+                <input
+                  class="type_text"
+                  type="number"
+                  placeholder="Tu Telefono"
+                />
+              </div>
+              <div class="campo">
+                <label for="">Correo</label>
+                <input class="type_text" type="email" placeholder="Mail" />
+              </div>
+              <div class="campo">
+                <label for="">Mensaje</label>
+                <textarea class="type_text" id=""></textarea>
+              </div>
+            </div>
+            <div>
+              <input class="boton boton_enviar" type="submit" value="Enviar" />
+            </div>
+          </fieldset>
+        </form>
+      </section>
     </main>
-
-    <section>
-      <h2>Contacto</h2>
-      <form action="">
-        <fieldset>
-          <legend>Contactame llenando todos los campos</legend>
-          <div>
-            <label for="">Nombre</label>
-            <input type="text" placeholder="Tu Nombre" />
-          </div>
-          <div>
-            <label for="">Telefono</label>
-            <input type="number" placeholder="Tu Telefono" />
-          </div>
-          <div>
-            <label for="">Correo</label>
-            <input type="email" placeholder="Mail" />
-          </div>
-          <div>
-            <label for="">Mensaje</label>
-            <textarea name="" id=""></textarea>
-          </div>
-          <div><input type="submit" value="Enviar" /></div>
-        </fieldset>
-      </form>
-    </section>
-
-    <footer>
-      <p>Todos los derechos reservados</p>
+    <footer class="footer">
+      <p>Todos los derechos reservados Enrique Omar Farias</p>
     </footer>
   </body>
 </html>
